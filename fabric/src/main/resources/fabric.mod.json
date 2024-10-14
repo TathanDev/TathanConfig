@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tathanconfig",
+  "version": "${version}",
+  "name": "TathanConfig",
+  "description": "A very bad config library !",
+  "authors": [
+    "TATHAN"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/tathanconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.tathan.tathanconfig.fabric.TathanconfigFabric"
+    ],
+    "client": [
+      "fr.tathan.tathanconfig.fabric.client.TathanconfigFabricClient"
+    ],
+    "modmenu": [
+      "fr.tathan.tathanconfig.fabric.client.ModMenuConfig"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

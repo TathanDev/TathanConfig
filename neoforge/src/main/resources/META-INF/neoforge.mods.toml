@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "tathanconfig"
+version = "${version}"
+displayName = "TathanConfig"
+authors = "TATHAN"
+description = '''
+A very bad config library !
+'''
+#logoFile = ""
+
+[[dependencies.tathanconfig]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tathanconfig]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+
